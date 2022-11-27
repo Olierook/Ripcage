@@ -41,3 +41,8 @@ export default function UserContextComp({ children }) {
 
 // Custom hook that shorthands the context!
 export const useUser = () => useContext(UserContext)
+export const signIn = () => {
+    const provider = new GoogleAuthProvider()
+    const auth = getAuth()
+    return () => signInWithPopup(auth, provider)
+}

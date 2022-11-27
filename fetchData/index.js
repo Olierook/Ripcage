@@ -23,14 +23,7 @@ export const useValue = (string) => {
     return [value, updateValue]
 }
 
-export const useDuration = () => useValue("config/time-duration")
-export const useTimestamp = () => useValue("config/timestamp-refresh")
-export const useCurrentRound = () => useValue("config/current-round")
-export const useRoundConfig = () => useValue(`rounds/${currentRound}/config`)
-export const useBlue = () => useValue(`rounds/${currentRound}/blue`)
-export const useRed = () => useValue(`rounds/${currentRound}/red`)
-export const useGreen = () => useValue(`rounds/${currentRound}/green`)
-
-export const useCount = (c)=> useValue(`rounds/${currentRound}/${c}/current`)
-export const useTitle = (c)=> useValue(`rounds/${currentRound}/${c}/title`)
-export const useUpcomingTitle = (c)=> useValue(`rounds/${currentRound}/${c}/upcoming`)
+//Shortcuts for commonusage
+export const useSomething = () => useValue("something")
+export const useSomthingNested = () => useValue("config/something")
+export const useSomethingVariabellyNested = (variable) => useValue(`${variable}/something`)
