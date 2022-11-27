@@ -1,8 +1,10 @@
 import DatabaseProvider from '../context/dbContext'
 import UserProvider from '../context/userContext'
+import Head from "next/head"
 import Router from "next/router";
+import ReactDOM from "react-dom";
 
-import PageChange from "/components/PageChange/PageChange.js";
+import PageChange from "/components/Mui/PageChange/PageChange.js";
 
 import "/styles/scss/nextjs-material-kit.scss?v=1.2.0";
 
@@ -26,10 +28,19 @@ Router.events.on("routeChangeError", () => {
 // Custom App to wrap it with context provider
 export default function App({ Component, pageProps }) {
   return (
-    <UserProvider>
-      <DatabaseProvider>
-        <Component {...pageProps} />
-      </DatabaseProvider>
-    </UserProvider>
+    <>
+      <Head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>Default titel</title>
+      </Head>
+      <UserProvider>
+        <DatabaseProvider>
+          <Component {...pageProps} />
+        </DatabaseProvider>
+      </UserProvider>
+    </>
   )
 }

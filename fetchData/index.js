@@ -23,7 +23,7 @@ export const useValue = (string) => {
     return [value, updateValue]
 }
 
-//Shortcuts for commonusage
+//Shortcuts for common usage
 export const useSomething = () => useValue("something")
 export const useSomthingNested = () => useValue("config/something")
 export const useSomethingVariabellyNested = (variable) => useValue(`${variable}/something`)

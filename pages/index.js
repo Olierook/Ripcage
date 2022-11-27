@@ -1,38 +1,23 @@
 import Head from 'next/head'
-import Chart from '../components/Chart';
-import Clock from '../components/Clock';
-import { useBlue, useDuration, useRed, useGreen, useRoundConfig, useTimestamp } from './../fetchData/index';
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { useValue } from './../fetchData/index';
 import { useUser } from './../context/userContext';
-
+import Button from "./../components/Mui/CustomButtons/Button";
+import Router from 'next/router';
+import React from 'react';
 
 
 export default function Home() {
 
-  const [duration, setDuration] = useDuration();
-  const [timestamp, setTimestamp] = useTimestamp();
-
-  const [roundConfig, setRoundConfig] = useRoundConfig();
-
-  const [red, setRed] = useRed();
-  const [blue, setBlue] = useBlue();
-  const [green, setGreen] = useGreen();
-
+  const go = () => Router.push("/twee");
 
 
 
   return (
     <div className="container">
       <Head>
-        <title>Merdsz App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Titel</title>
       </Head>
-      <Clock deadline={timestamp}/>
-      <div onClick={() => signInWithPopup(auth, provider)}>Test</div>
-      <div className='push'/>
-      <div className='sub-container'>
-      <Chart red={red} green={green} blue={blue} nowPlaying={roundConfig?.["won-before"]}/>
-      </div>
+      <Button onClick={go}>Test</Button>
 
       <style jsx global>
         {`
@@ -51,21 +36,7 @@ export default function Home() {
 
         `}
         </style>
-        {/* <style jsx>
-          { ` 
-          .container {
-            display: flex;
-            justify-content: center;
-            height: 100vh;
-          }
-          .sub-container {
-            margin-top: 60px;
-            max-width: 170vh;
-          }
 
-
-          `}
-        </style> */}
     </div>
   )
 }
