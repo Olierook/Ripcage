@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Chart from '../components/Chart';
 import Clock from '../components/Clock';
 import { useBlue, useDuration, useRed, useGreen, useRoundConfig, useTimestamp } from './../fetchData/index';
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { useUser } from './../context/userContext';
+
+
 
 export default function Home() {
 
@@ -16,6 +20,7 @@ export default function Home() {
 
 
 
+
   return (
     <div className="container">
       <Head>
@@ -23,6 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Clock deadline={timestamp}/>
+      <div onClick={() => signInWithPopup(auth, provider)}>Test</div>
       <div className='push'/>
       <div className='sub-container'>
       <Chart red={red} green={green} blue={blue} nowPlaying={roundConfig?.["won-before"]}/>

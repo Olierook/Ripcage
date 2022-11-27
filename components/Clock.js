@@ -43,7 +43,7 @@ const Clock = ({deadline}) => {
 
 
   return (
-    <div>{showClockStyle(hours)}{showClockStyle(minutes)}{showClockStyle(seconds, true)}
+    <div >{showClockStyle(hours)}{showClockStyle(minutes)}{showClockStyle(seconds, true)}
         <style jsx>
             {`
               div {
