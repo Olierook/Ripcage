@@ -8,13 +8,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href="/img/favicon.png" />
-          <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="/img/apple-icon.png"
-          />
+          <link rel="icon" href="/favicon.ico" />
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
@@ -31,6 +25,14 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        <style jsx global>
+        {`
+        *:focus {
+            outline: none;
+        }
+
+        `}
+        </style>
       </Html>
     );
   }
