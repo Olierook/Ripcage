@@ -1,57 +1,43 @@
-import Head from 'next/head'
-import { useValue } from './../fetchData/index';
-import { useUser } from './../context/userContext';
+import Head from "next/head";
+import { useValue } from "./../fetchData/index";
+import { useUser } from "./../context/userContext";
 import Button from "./../components/Mui/CustomButtons/Button";
-import Router from 'next/router';
-import React from 'react';
-import useIsDesktop from './../hooks/useIsDesktop';
-import YoutubeIframe from '../components/YoutubeIframe';
-import classNames from 'classnames';
-import ResponsiveGrid from '../components/ResponsiveGrid';
+import Router from "next/router";
+import React from "react";
+import useIsDesktop from "./../hooks/useIsDesktop";
+import ResponsiveGrid from "../components/ResponsiveGrid";
+import Section from "../components/Section";
+import VideoSection from "../components/Sections/VideoSection";
+import { useStore } from "./../context/Store";
 
 
 export default function Home() {
-  const isDesktop = useIsDesktop();
-  const videoclasses = classNames({
-    ['mobile-yt']: !isDesktop,
-    ['desktop-yt']: isDesktop
-  })
+  useIsDesktop();
 
-console.log(isDesktop);
+  const mobileGrid = `
+  "header" 50px
+  "video"  33vh
+  "info" calc(67vh - 50px)
+  "footer" 25px 
+  / auto
+  `;
+  const desktopGrid = `
+    "header header" 50px
+    "video info" calc(100vh - 100px)
+    "footer footer" 50px
+    / 50vw 50vw
+  `;
   return (
     <div className="container">
       <Head>
         <title>Veldhuijzen Hospitality</title>
       </Head>
-      <ResponsiveGrid isDesktop={isDesktop}>
-        <div>1</div>
-        <div className={videoclasses}>
-          <div>
-            <YoutubeIframe video="KlNSLU94Mj0" width={isDesktop ? "680px" : "100%"} height={isDesktop ? "480px" : "33vh"}/>
-          </div>
-        </div>
-        <div>3</div>
+      <ResponsiveGrid mobileGrid={mobileGrid} desktopGrid={desktopGrid}>
+        <Section id="header"></Section>
+        <Section id="video"><VideoSection/></Section>
+        <Section id="info"></Section>
+        <Section id="footer"></Section>
       </ResponsiveGrid>
-      
-      <style jsx>
-        {`
-          .videocontainer {
-
-          }
-          .mobile-yt div{
-            height: 33vh;
-          }
-          .desktop-yt div{
-            height: 480px;
-          }
-
-          .desktop-yt {
-            margin-top: 50px;
-            margin-left: 50px;
-
-          }
-        `}
-      </style>
     </div>
-  )
+  );
 }

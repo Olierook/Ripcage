@@ -1,14 +1,14 @@
 
-import useMediaQuery from './useMediaQuery';
-import { useEffect, useState } from 'react';
+import useMediaQuery from "./useMediaQuery";
+import { useEffect } from "react";
+import { useStore } from "./../context/Store";
 const useIsDesktop = () => {
-    const [isDesktop, setIsDesktop] = useState(false)
-    const matches = useMediaQuery("(min-width: 556px)");
-    useEffect(() => {
-        setIsDesktop(matches);
-    })
-    return isDesktop
-}
+  const matches = useMediaQuery("(min-width: 556px)");
+  const [,dispatch] = useStore();
+  useEffect(() => {
+    dispatch({isDesktop: matches});
+  }, [matches]);
+};
 
 //   const useIsDesktop = (inverse = false) => {
 
@@ -35,4 +35,4 @@ const useIsDesktop = () => {
 // };
 
 
-export default useIsDesktop
+export default useIsDesktop;

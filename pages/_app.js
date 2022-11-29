@@ -1,6 +1,7 @@
-import DatabaseProvider from '../context/dbContext'
-import UserProvider from '../context/userContext'
-import Head from "next/head"
+import DatabaseProvider from "../context/dbContext";
+import UserProvider from "../context/userContext";
+import { StoreProvider } from "../context/Store";
+import Head from "next/head";
 import Router from "next/router";
 import ReactDOM from "react-dom";
 
@@ -26,6 +27,7 @@ Router.events.on("routeChangeError", () => {
 });
 
 // Custom App to wrap it with context provider
+// eslint-disable-next-line react/prop-types
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -36,11 +38,14 @@ export default function App({ Component, pageProps }) {
         />
         <title>Default titel</title>
       </Head>
-      <UserProvider>
-        <DatabaseProvider>
-          <Component {...pageProps} />
-        </DatabaseProvider>
-      </UserProvider>
+      <StoreProvider>
+        <UserProvider>
+          <DatabaseProvider>
+            <Component {...pageProps} />
+          </DatabaseProvider>
+        </UserProvider>
+      </StoreProvider>
+
     </>
-  )
+  );
 }
