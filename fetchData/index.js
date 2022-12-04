@@ -1,8 +1,6 @@
 import { useDb } from "./../context/dbContext";
 import { useState } from "react";
 
-const currentRound = 0;
-
 
 export const useValue = (string) => {
   const {db, ref, set, onValue} = useDb();
