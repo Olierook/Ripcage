@@ -42,12 +42,12 @@ const FooterSection = () => {
     <div>
       <SocialIcon url="https://www.instagram.com/rinusium/?hl=en"/>
       <SocialIcon url="https://www.facebook.com/rinusium/?hl=en"/>
-      <SocialIcon url="https://api.whatsapp.com/send?phone=0031644923887"/>
+      <SocialIcon url="https://api.whatsapp.com/send?phone=31644923887"/>
       <SocialIcon onClick={copy} network="email" />
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
         open={clicked}
-        autoHideDuration={2000}
+        autoHideDuration={1000}
         onClose={handleClose}
         message={`Copied ${email}`}
         action={action}
