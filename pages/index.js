@@ -17,7 +17,7 @@ export default function Home() {
   const mobileGrid = `
     "header" ${headerHeight}
     "video"  33vh
-    "info" calc(67vh - (${headerHeight} + ${footerHeight}))
+    "info" calc(67vh - (${headerHeight} + ${footerHeight} + 50px))
     "footer" ${footerHeight} 
     / auto
   `;
