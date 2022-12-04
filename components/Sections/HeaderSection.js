@@ -5,15 +5,15 @@ import { headerHeight } from "./../../lib/globalvars";
 const HeaderSection = props => {
   return (
     <div>
-      <img src="/VHF.png" height={headerHeight}/>
+      <img src="/VHF.svg" height={headerHeight}/>
       <style jsx>{`
             div {
                 width: 100%;
                 height: ${headerHeight};
-                background: #000000;
+                background: #ffffff;
             }
             img {
-                margin-left: 15px;
+                margin-left: 18px;
             }
         `}</style>
     </div>

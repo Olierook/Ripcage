@@ -59,7 +59,7 @@ const FooterSection = () => {
             div {
                 width: 100%;
                 height: ${footerHeight};
-                border-top: 1px solid #bbb;
+                /* border-top: 1px solid #bbb; */
                 background: #fff;
                 display: flex;
                 gap: 15px;

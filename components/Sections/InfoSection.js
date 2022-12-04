@@ -5,7 +5,8 @@ import { padding } from "./../../lib/globalvars";
 import { useStore } from "./../../context/Store";
 
 const InfoSection = props => {
-  const {isBig} = useStore();
+  const [{isBig}] = useStore();
+  console.log({isBig});
   return (
     <div>
       <ProfilePicture width={100}/>
@@ -20,6 +21,9 @@ const InfoSection = props => {
            margin-right: ${padding};
            margin-left: ${isBig ? 0 : padding};
         } 
+        p {
+          font-size: 1.1em;
+        }
         `}</style>
     </div>
   );
