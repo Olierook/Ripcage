@@ -21,7 +21,6 @@ const VideoSection = ({video}) => {
           margin-top: ${isBig ? padding : "auto"};
 
         }
-        }
       `}</style>
     </div>
     // <div className={videoclasses}>
