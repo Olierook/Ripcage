@@ -1,6 +1,9 @@
 
 export const initialState = {
-  isDesktop: false
+  isDesktop: false,
+  isSmall: true,
+  isMedium: false,
+  isBig: false
 };
 
 

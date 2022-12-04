@@ -24,6 +24,6 @@ export const useValue = (string) => {
 };
 
 //Shortcuts for common usage
-export const useSomething = () => useValue("something");
+export const useVideo = () => useValue("video");
 export const useSomthingNested = () => useValue("config/something");
 export const useSomethingVariabellyNested = (variable) => useValue(`${variable}/something`);

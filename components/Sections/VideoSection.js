@@ -1,11 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 // import YoutubeIframe from "./../YoutubeIframe";
 // import classNames from "classnames";
 import { useStore } from "./../../context/Store";
+import { PropTypes } from "prop-types";
 
-const VideoSection = () => {
-  const [{isDesktop}] = useStore();
+const VideoSection = (video) => {
+  const [{isMedium, isBig}] = useStore();
   // const videoclasses = classNames({
   //   ["mobile-yt"]: !isDesktop,
   //   ["desktop-yt"]: isDesktop
@@ -13,7 +13,7 @@ const VideoSection = () => {
   return (
     // <div className={videoclasses}>
     //   <div>
-    <iframe width={isDesktop ? "560" : "100%"} height={isDesktop ? "315" : "100%"} src="https://www.youtube.com/embed/KlNSLU94Mj0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    <iframe width={isBig ? "560" : "100%"} height={isBig ? "315" : isMedium ? "500" : "100%"} src={`https://www.youtube.com/embed/${video}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
   // {/* <YoutubeIframe video="KlNSLU94Mj0" width={isDesktop ? "680px" : "100%"} height={isDesktop ? "480px" : "33vh"}/> */}
     //   </div>
     //   <style jsx>
@@ -38,9 +38,8 @@ const VideoSection = () => {
   // </div>
   );
 };
-
 VideoSection.propTypes = {
-  isDesktop: PropTypes.bool
+  video: PropTypes.string,
 };
 
 export default VideoSection;
