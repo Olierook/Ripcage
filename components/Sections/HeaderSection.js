@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { headerHeight } from "./../../lib/globalvars";
+import { headerHeight, padding } from "./../../lib/globalvars";
 
 const HeaderSection = props => {
   return (
     <div>
-      <img src="/VHF.svg" height={headerHeight}/>
+      <img src="/VHF.svg" height={"50px"}/>
       <style jsx>{`
             div {
                 width: 100%;
@@ -13,7 +13,8 @@ const HeaderSection = props => {
                 background: #ffffff;
             }
             img {
-                margin-left: 18px;
+                margin-left: ${padding};
+                margin-top: 12.5px;
             }
         `}</style>
     </div>
