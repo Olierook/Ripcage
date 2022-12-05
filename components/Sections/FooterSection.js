@@ -8,10 +8,10 @@ import CloseIcon from "@mui/icons-material/Close";
 
 
 
-const FooterSection = () => {
+const FooterSection = ({socmed}) => {
   const [clicked, setClicked] = useState(false);
+  const {facebook, instagram, email, phonenumber} = socmed;
 
-  const email = "bookings@veldhuijzenhospitality.com";
   const copy = async (e) => {
     console.log("hi");
     e.preventDefault();
@@ -40,10 +40,10 @@ const FooterSection = () => {
   );
   return (
     <div>
-      <SocialIcon url="https://www.instagram.com/rinusium/?hl=en"/>
-      <SocialIcon url="https://www.facebook.com/rinusium/?hl=en"/>
-      <SocialIcon url="https://api.whatsapp.com/send?phone=31644923887"/>
-      <SocialIcon onClick={copy} network="email" />
+      <SocialIcon url={`https://www.instagram.com/${instagram}`}/>
+      <SocialIcon url={`https://www.facebook.com/${facebook}`}/>
+      <SocialIcon url={`https://api.whatsapp.com/send?phone=${phonenumber}`}/>
+      <SocialIcon onClick={copy} network="email" style={{cursor: "pointer"}}/>
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
         open={clicked}
@@ -72,6 +72,8 @@ const FooterSection = () => {
   );
 };
 
-FooterSection.propTypes = {};
+FooterSection.propTypes = {
+  socmed: PropTypes.object
+};
 
 export default FooterSection;
