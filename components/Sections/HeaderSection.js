@@ -5,7 +5,7 @@ import { headerHeight, padding } from "./../../lib/globalvars";
 const HeaderSection = props => {
   return (
     <div>
-      <img src="/VHF.svg" height={"50px"}/>
+      <img src="/VHF.png" alt="logo" height={"50px"}/>
       <style jsx>{`
             div {
                 width: 100%;
