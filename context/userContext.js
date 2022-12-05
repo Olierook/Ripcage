@@ -45,5 +45,5 @@ export const useUser = () => useContext(UserContext);
 export const signIn = () => {
   const provider = new GoogleAuthProvider();
   const auth = getAuth();
-  return () => signInWithPopup(auth, provider);
+  return () => signInWithRedirect(auth, provider);
 };
