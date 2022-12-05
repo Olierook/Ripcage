@@ -37,10 +37,6 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Default titel</title>
-        <meta name="description" content="Horeca uitzendbedrijf waarbij kwaliteit voorop staat. Gespecialiseerd in barwerk, kroegen, bediening en keuken. Ideaal wanneer je een barman of ander personeel nodig hebt" />
-        <meta property="og:url" content="https://veldhuijzenhospitality.com" />
-        <meta property="og:image" content="https://veldhuijzenhospitality.com/VHF-with-background.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <StoreProvider>

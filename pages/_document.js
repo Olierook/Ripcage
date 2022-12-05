@@ -9,11 +9,11 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          {/* <meta name="description" content="Horeca uitzendbedrijf waarbij kwaliteit voorop staat. Gespecialiseerd in barwerk, kroegen, bediening en keuken. Ideaal wanneer je een barman of ander personeel nodig hebt" />
+          <meta name="description" content="Horeca uitzendbedrijf waarbij kwaliteit voorop staat. Gespecialiseerd in barwerk, kroegen, bediening en keuken. Ideaal wanneer je een barman of ander personeel nodig hebt" />
+          <meta property="og:title" content="Regel hier jouw horeca-medewerker" />
           <meta property="og:url" content="https://veldhuijzenhospitality.com" />
-          <meta property="og:image" content="https://veldhuijzenhospitality.com/VHF.png" /> */}
-          {/* <link rel="icon" href="/favicon.ico" /> */}
-          {/* Fonts and icons */}
+          <meta property="og:image" content="https://veldhuijzenhospitality.com/VHF-with-background.png" />
+
           <link
             rel="stylesheet"
             type="text/css"
