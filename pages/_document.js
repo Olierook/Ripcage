@@ -12,7 +12,8 @@ class MyDocument extends Document {
           <meta name="description" content="Horeca uitzendbedrijf waarbij kwaliteit voorop staat. Gespecialiseerd in barwerk, kroegen, bediening en keuken. Ideaal wanneer je een barman of ander personeel nodig hebt" />
           <meta property="og:title" content="Regel hier jouw horeca-medewerker" />
           <meta property="og:url" content="https://veldhuijzenhospitality.com" />
-          <meta property="og:image" content="https://veldhuijzenhospitality.com/VHF-with-background.png" />
+          <meta property="og:image" content="https://veldhuijzenhospitality.com/VHF.jpg" />
+          <meta property="og:type" content="website"/>
 
           <link
             rel="stylesheet"
