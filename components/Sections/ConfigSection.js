@@ -2,12 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useValue } from "../../fetchData/index";
 import { TextField } from "@mui/material";
-import { Checkbox } from "@material-ui/core";
+import { Button, Checkbox } from "@material-ui/core";
+import { signOut, getAuth } from "firebase/auth";
+
 
 const ConfigSection = () => {
   const [show, setShow] = useValue("config/show");
 
-  
+  const auth = getAuth();
+  const signout = () => signOut(auth);
 
 
   return (
@@ -22,6 +25,7 @@ const ConfigSection = () => {
             inputProps={{ "aria-label": "controlled" }}
           />
         </div>
+        <Button onClick={signout}>Uitloggen</Button>
       </div>
       <style jsx>{`
         .innerdiv {
