@@ -44,6 +44,7 @@ export const useUser = () => useContext(UserContext);
 
 export const signIn = () => {
   const provider = new GoogleAuthProvider();
+  provider.setCustomParameters({prompt: "select_account"});
   const auth = getAuth();
-  return () => signInWithRedirect(auth, provider);
+  return signInWithRedirect(auth, provider);
 };

@@ -14,7 +14,7 @@ import { render } from "react-dom";
 
 export default function Admin() {
 
-  const { user, setUser, loadingUser } = useUser();
+  const { user, loadingUser } = useUser();
   const [renderOrder, setRenderOrder] = useState(false);
   console.log({user});
 
@@ -57,7 +57,11 @@ export default function Admin() {
             {renderOrder && <Section id="config"><ConfigSection renderOrder={renderOrder}/></Section>}
           </>
           :
-          <Button onClick={signIn()}>Inloggen</Button>
+          loadingUser ?
+            <span>Inloggen...</span>
+            :
+            <Button onClick={signIn}>Inloggen</Button>
+          
         }
         <Section id="footer"></Section>
       </ResponsiveGrid>
