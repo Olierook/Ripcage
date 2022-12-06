@@ -13,19 +13,26 @@ import admin from "./../firebase/nodeApp";
 
 
 export default function Home({
-  video,
-  facebook,
-  instagram,
-  email,
-  phonenumber,
-  h,
-  p1,
-  p2,
-  show
+  video: pv,
+  facebook: pfb,
+  instagram: pig,
+  email: pe,
+  phonenumber: ppn,
+  h: ph,
+  p1: pp1,
+  p2: pp2,
+  show: ps
 }) {
   useSetBreakpoints(700, 918);
-
-  
+  const [video] = useValue("content/video", pv);
+  const [facebook] = useValue("content/facebook", pfb);
+  const [instagram] = useValue("content/instagram", pig);
+  const [email] = useValue("content/email", pe);
+  const [phonenumber] = useValue("content/phonenumber", ppn);
+  const [h] = useValue("content/h", ph);
+  const [p1] = useValue("content/p1", pp1);
+  const [p2] = useValue("content/p2", pp2);
+  const [show] = useValue("config/show", ps);
 
   const mobileGrid = `
     "header" ${headerHeight}
