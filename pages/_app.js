@@ -1,6 +1,7 @@
 import DatabaseProvider from "../context/dbContext";
 import UserProvider from "../context/userContext";
 import { StoreProvider } from "../context/Store";
+import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 import Router from "next/router";
 import ReactDOM from "react-dom";
@@ -43,6 +44,7 @@ export default function App({ Component, pageProps }) {
         <UserProvider>
           <DatabaseProvider>
             <Component {...pageProps} />
+            <Analytics />
           </DatabaseProvider>
         </UserProvider>
       </StoreProvider>
