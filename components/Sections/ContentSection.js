@@ -19,7 +19,6 @@ const ContentSection = ({setRenderOrder}) => {
   
 
 
-
   return (
     <div className="outerdiv">
       <h3>Content</h3>
