@@ -5,6 +5,8 @@ import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 import Router from "next/router";
 import ReactDOM from "react-dom";
+import { colors } from "../lib/colors";
+
 
 import PageChange from "/components/Mui/PageChange/PageChange.js";
 
@@ -48,6 +50,18 @@ export default function App({ Component, pageProps }) {
           </DatabaseProvider>
         </UserProvider>
       </StoreProvider>
+      <style jsx global>
+        {`
+        *:focus {
+            outline: none;
+        }
+        body {
+          background-color: ${colors.content};
+          color: ${colors.contentText};
+          overflow-x: hidden;
+        }        
+        `}
+      </style>
 
     </>
   );

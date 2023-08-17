@@ -7,8 +7,8 @@ const ProfilePicture = ({width}) => {
       <img src="/profiel.jpg"/>
       <style jsx>{`
             img {
-                border-radius: 50%;
-                width: ${width}px;
+                width: ${width};
+
             }
         `}</style>
     </>

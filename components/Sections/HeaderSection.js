@@ -1,21 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { headerHeight, padding } from "./../../lib/globalvars";
+import { colors } from "../../lib/colors";
 
 const HeaderSection = props => {
   return (
     <div>
-      <img src="/VHF.png" alt="logo" height={"50px"}/>
+      <img src="/logo.png" alt="logo" height={"75px"}/>
       <style jsx>{`
             div {
                 width: 100%;
                 height: ${headerHeight};
-                background: #ffffff;
-            }
-            img {
-                margin-left: ${padding};
-                margin-top: 12.5px;
-            }
+                background: ${colors.bars};
+                text: ${colors.barsText};
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
         `}</style>
     </div>
   );

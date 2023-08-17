@@ -5,6 +5,7 @@ import { footerHeight } from "../../lib/globalvars";
 import IconButton from "@mui/material/IconButton";
 import Snackbar from "@mui/material/Snackbar";
 import CloseIcon from "@mui/icons-material/Close";
+import { colors } from "../../lib/colors";
 
 
 
@@ -40,6 +41,8 @@ const FooterSection = ({socmed}) => {
   );
   return (
     <div>
+      <SocialIcon url={"https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT?si=QYV_Ijv1SdmJVHeIZxkmAg"}/>
+      <SocialIcon url={"https://www.youtube.com/@goldwolffband"}/>
       <SocialIcon url={`https://www.instagram.com/${instagram}`}/>
       <SocialIcon url={`https://www.facebook.com/${facebook}`}/>
       <SocialIcon url={`https://api.whatsapp.com/send?phone=${phonenumber}`}/>
@@ -60,7 +63,8 @@ const FooterSection = ({socmed}) => {
                 width: 100%;
                 height: ${footerHeight};
                 /* border-top: 1px solid #bbb; */
-                background: #fff;
+                background: ${colors.bars};
+                text: ${colors.barsText};
                 display: flex;
                 gap: 15px;
                 align-items: center;

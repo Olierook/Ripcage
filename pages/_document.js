@@ -30,14 +30,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <style jsx global>
-          {`
-        *:focus {
-            outline: none;
-        }
-
-        `}
-        </style>
+        
       </Html>
     );
   }
