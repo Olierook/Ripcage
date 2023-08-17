@@ -39,6 +39,7 @@ const FooterSection = ({socmed}) => {
       </IconButton>
     </>
   );
+
   return (
     <div>
       <SocialIcon url={"https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT?si=QYV_Ijv1SdmJVHeIZxkmAg"}/>
