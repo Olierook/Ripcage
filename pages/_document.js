@@ -10,7 +10,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="description" content="HEAVY ROCK & ROLL. GET FUCKED." />
-          <meta property="og:title" content="Goldwolff" />
+          <meta property="og:title" content="Goldwölff" />
           <meta property="og:url" content="https://goldwolffband.com" />
           <meta property="og:image" content="https://goldwolffband.com/ogimage.jpg" />
           <meta property="og:type" content="website"/>
