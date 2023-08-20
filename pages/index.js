@@ -59,7 +59,7 @@ export default function Home({
   return (
     <div className="container">
       <Head>
-        <title>Veldhuijzen Hospitality</title>
+        <title>Goldwölff</title>
       </Head>
       {show &&
       <ResponsiveGrid small={mobileGrid} medium={mediumGrid} big={desktopGrid}>

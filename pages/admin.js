@@ -47,7 +47,7 @@ export default function Admin() {
   return (
     <div className="container">
       <Head>
-        <title>Veldhuijzen Hospitality</title>
+        <title>Goldwölff Admin</title>
       </Head>
       <ResponsiveGrid small={mobileGrid} medium={mediumGrid} big={desktopGrid}>
         <Section id="header"><HeaderSection/></Section>
