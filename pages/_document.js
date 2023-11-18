@@ -10,6 +10,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="description" content="HEAVY ROCK & ROLL. GET FUCKED." />
+          <link rel="icon" href="favicon.ico"/>
           <meta property="og:title" content="Goldwölff" />
           <meta property="og:url" content="https://goldwolffband.com" />
           <meta property="og:image" content="https://goldwolffband.com/ogimage.jpg" />
@@ -21,7 +22,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
           />
           <link
-            href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+            href="https://use.fontawesome.com/releases/v6.0.10/css/all.css"
             rel="stylesheet"
           />
         </Head>
