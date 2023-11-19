@@ -1,0 +1,36 @@
+[
+	{
+		"project": "Friday Fight Night",
+		"url": "https://nobel.nl/programma/friday-fight-night-12-jan-2024/",
+		"descriptionTitle": "Say goodbye to your boring friday nights, because on January 12th 2024 there’ll be heavy hitters.",
+		"description": "Friday Fight Night is the kind of event you have never experienced before. A unique combo of boxing and music. All to celebrate our debut EP release",
+		"description2": "With the slogan: 'Heavy Matches, Heavy Music' it's loud and clear what to expect.",
+		"description3": "Are you in for a night of Rock ’n Roll & Boxing? Order your tickets now.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "786", "w": "556", "url": "/img/ffn/poster.png" }
+		],
+		"stack": [
+			
+		],
+		"cta": "Get tickets now"
+	},
+	{
+		"project": "Black Leather",
+		"url": "https://www.youtube.com/watch?v=vTL10YHh5G0",
+		"repo": "Public",
+		"descriptionTitle": "Saddle up and join the wild ride with our heavy rock and roll anthem, 'Black Leather.'",
+		"description": "Watch as a rugged cowboy crosses paths with a daring woman, embarking on a heart-pounding adventure set against the backdrop of our thunderous sound.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "188", "w": "336",  "url": "/img/black leather/thumb.png" }
+
+		],
+	
+		"cta": "Watch on youtube now"
+	}
+]			

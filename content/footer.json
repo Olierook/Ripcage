@@ -1,0 +1,94 @@
+{
+	"gigs": [
+		{ 
+			"date": "08/04/2023",
+			"description": "Interstellar Solar Festival Nobel Leiden"
+		},
+		{ 
+			"date": "27/04/2023",
+			"description": "Kings Festival Vi-Kings"
+		},
+		{ 
+			"date": "29/04/2023",
+			"description": "Don’t Mind The Fuzz Festival Leiden"
+		},
+		{ 
+			"date": "25/05/2023",
+			"description": "Hondsdol Festival Wibar Leiden"
+		},
+		{ 
+			"date": "30/07/2023",
+			"description": "Riffsniffer presents Sasquatch Baroeg Rotterdam"
+		},
+		{ 
+			"date": "26/08/2023",
+			"description": "Koeienpop Stompwijk"
+		},
+		{ 
+			"date": "22/09/2023",
+			"description": "Metal Experience Fest Nobel Leiden"
+		},
+		{ 
+			"date": "30/09/2023",
+			"description": "Sasquatch Sessions Latenstaan Zoetermeer"
+		},
+		{ 
+			"date": "03/10/2023",
+			"description": "3 October Festival Vi-Kings Sportsbar Leiden"
+		},
+		{ 
+			"date": "24/11/2023",
+			"description": "Slachthuis Haarlem"
+		},
+		{ 
+			"date": "26/11/2023",
+			"description": "Bierlokaal de Veste Leiden"
+		},
+		{ 
+			"date": "12/01/2024",
+			"description": "EP Release w/ Dikke Dennis & Boxmatches Nobel Leiden"
+		},
+		{ 
+			"date": "02/02/2024",
+			"description": "Rock Club The Cave Amsterdam"
+		}
+
+	],
+
+
+
+	"social": [
+		{
+			"url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT",
+			"icon": "spotify"
+		},
+		{
+			"url": "https://music.apple.com/us/artist/goldw%C3%B6lff/1701627840",
+			"icon": "apple"
+		},
+		{
+			"url": "https://soundcloud.com/goldwolff",
+			"icon": "soundcloud"
+		},
+		{
+			"url": "https://www.youtube.com/channel/UCOfpKkEdYJOWXULfQiYRvtQ",
+			"icon": "youtube"
+		},
+		{
+			"url": "https://www.instagram.com/goldwolffband",
+			"icon": "instagram"
+		},
+		{
+			"url": "https://www.facebook.com/goldwolffband",
+			"icon": "facebook"
+		},
+		{
+			"url": "mailto:goldwolffband@gmail.com",
+			"icon": "at"
+		},
+		{
+			"url": "https://api.whatsapp.com/send?phone=31648120785",
+			"icon": "whatsapp"
+		}
+	]
+}
