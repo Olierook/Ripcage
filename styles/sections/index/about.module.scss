@@ -101,7 +101,7 @@
 			position: relative;
 
 			img {
-				height: 100%;
+				min-height: 100%;
 				width: auto;
 				aspect-ratio: 3/4;
 				object-fit: cover;
@@ -140,7 +140,7 @@
 			.image {
 				padding: 1rem;
 				img {
-					max-height: 450px;
+					// max-height: 500px;
 				}
 				&.technicalSvg {
 					position: absolute;
