@@ -139,7 +139,9 @@
 
 			.image {
 				padding: 1rem;
-				max-height: 450px;
+				img {
+					max-height: 450px;
+				}
 				&.technicalSvg {
 					position: absolute;
 					top: 50%;
@@ -148,6 +150,7 @@
 					height: 140%;
 					z-index: -1;
 				}
+
 			}
 
 			.copy {
