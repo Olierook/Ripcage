@@ -1,3 +1,7 @@
+import DatabaseProvider from "../context/dbContext";
+import UserProvider from "../context/userContext";
+import { StoreProvider } from "../context/Store";
+
 // Core packages
 import { Analytics } from '@vercel/analytics/react';
 import { LazyMotion, domAnimation } from "framer-motion"
@@ -34,14 +38,18 @@ import '../styles/css/global.css'
  */
 export default function MyApp({ Component, pageProps }) {
 	return (
-		<>
-		<LazyMotion features={domAnimation}>
-			<Layout>
-				<Component {...pageProps} />
-				<SetGridGap />
-				<Analytics />
-			</Layout>
-		</LazyMotion>
-		</>
+		<StoreProvider>
+       	 	<UserProvider>
+         		 <DatabaseProvider>
+					<LazyMotion features={domAnimation}>
+						<Layout>
+							<Component {...pageProps} />
+							<SetGridGap />
+							<Analytics />
+						</Layout>
+					</LazyMotion>
+				</DatabaseProvider>
+			</UserProvider>
+		</StoreProvider>
 	)
 }

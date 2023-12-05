@@ -2,55 +2,87 @@
 	"gigs": [
 		{ 
 			"date": "08/04/2023",
-			"description": "Interstellar Solar Festival Nobel Leiden"
+			"event": "Interstellar Solar Festival  Leiden",
+			"venue": "Nobel",
+			"city": "Leiden",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "27/04/2023",
-			"description": "Kings Festival Vi-Kings"
+			"event": "Kings Festival",
+			"venue": "Vi-Kings",
+			"city": "Leiden",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "29/04/2023",
-			"description": "Don’t Mind The Fuzz Festival Leiden"
+			"event": "Don't Mind The Fuzz Festival",
+			"venue": "",
+			"city": "Leiden",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "25/05/2023",
-			"description": "Hondsdol Festival Wibar Leiden"
+			"event": "Hondsdol Festival",
+			"venue": "Wibar",
+			"city": "Leiden",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "30/07/2023",
-			"description": "Riffsniffer presents Sasquatch Baroeg Rotterdam"
+			"event": "Riffsniffer presents Sasquatch",
+			"venue": "Baroeg",
+			"city": "Rotterdam",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "26/08/2023",
-			"description": "Koeienpop Stompwijk"
+			"event": "Koeienpop",
+			"venue": "",
+			"city": "Stompwijk",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "22/09/2023",
-			"description": "Metal Experience Fest Nobel Leiden"
+			"event": "Metal Experience Fest",
+			"venue": "Nobel",
+			"city": "Leiden",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "30/09/2023",
-			"description": "Sasquatch Sessions Latenstaan Zoetermeer"
+			"event": "Sasquatch Sessions",
+			"venue": "Mevrouw Latenstaan",
+			"city": "Zoetermeer",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "03/10/2023",
-			"description": "3 October Festival Vi-Kings Sportsbar Leiden"
-		},
-		{ 
-			"date": "24/11/2023",
-			"description": "Slachthuis Haarlem"
-		},
-		{ 
-			"date": "26/11/2023",
-			"description": "Bierlokaal de Veste Leiden"
+			"event": "3 October Festival",
+			"venue": "Vi-Kings",
+			"city": "Leiden",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "12/01/2024",
-			"description": "EP Release w/ Dikke Dennis & Boxmatches Nobel Leiden"
+			"event": "Friday Fight Night",
+			"venue": "Nobel",
+			"city": "Leiden",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "27/01/2024",
+			"event": "",
+			"venue": "dBs",
+			"city": "Utrecht",
+			"country": "Netherlands"
 		},
 		{ 
 			"date": "02/02/2024",
-			"description": "Rock Club The Cave Amsterdam"
+			"event": "",
+			"venue": "The Cave",
+			"city": "Amsterdam",
+			"country": "Netherlands"
 		}
 
 	],

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 
 import Container from '../structure/container'
 import Icon from '../utils/icon.util'
+import moment from 'moment'
 
 import css from '../../styles/structure/footer.module.scss'
 
@@ -9,6 +10,12 @@ import content from '../../content/footer.json'
 import settings from '../../content/_settings.json'
 
 export default function Footer() {
+	moment.locale("en-gb")
+
+	const dateSortFunction = (a, b) => {
+		return moment(a.date, "DD-MM-YYYY").isBefore(moment(b.date, "DD-MM-YYYY")) ? 1 : -1;
+	};
+	
 	
 	
 	return (
@@ -18,11 +25,13 @@ export default function Footer() {
 					<ul className={css.thanks}>
 						<li><h4>Gigs</h4></li>
 						{
-						content.gigs.map( ({ date, description }, index) => {
+						content.gigs.sort(dateSortFunction).map( ({ date, event, venue, city }, index) => {
+
 							return (
 								<li key={index}>
+									<p>{venue} {venue && event ? "|" : ""} {event}</p>
 									<h3>{date}</h3>
-									<p>{description}</p>
+									<p>{city}</p>
 								</li>
 							)
 						})
