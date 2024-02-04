@@ -8,13 +8,21 @@ import css from '../../styles/structure/footer.module.scss'
 
 import content from '../../content/footer.json'
 import settings from '../../content/_settings.json'
+import colors from '../../content/projects/_colors.json'
 
 export default function Footer() {
 	moment.locale("en-gb")
 
-	const dateSortFunction = (a, b) => {
-		return moment(a.date, "DD-MM-YYYY").isBefore(moment(b.date, "DD-MM-YYYY")) ? 1 : -1;
+	const dateSortFunction = (asc) => (a, b) => {
+		return moment(a.date, "DD-MM-YYYY").isBefore(moment(b.date, "DD-MM-YYYY")) ? asc : -1 * asc;
 	};
+	const playedGigs = [];
+	const gigsToGo = [];
+
+
+	for (const gig of content.gigs) {
+		moment(gig.date, "DD-MM-YYYY").isBefore(moment()) ? playedGigs.push(gig) : gigsToGo.push(gig);
+	}
 	
 	
 	
@@ -22,10 +30,24 @@ export default function Footer() {
 		<footer className={css.container}>
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={css.sections}>
-					<ul className={css.thanks}>
-						<li><h4>Gigs</h4></li>
+					<ul className={css.thanks} id="gigs">
+					{gigsToGo[0] && <li><h4>Upcoming Gigs</h4></li>}
 						{
-						content.gigs.sort(dateSortFunction).map( ({ date, event, venue, city }, index) => {
+							gigsToGo[0] && gigsToGo.sort(dateSortFunction(-1)).map( ({ date, event, venue, city }, index) => {
+
+								return (
+									<li key={index}>
+										<p>{venue} {venue && event ? "|" : ""} {event}</p>
+										<h3>{date}</h3>
+										<p>{city}</p>
+									</li>
+								)
+							})
+							}
+						<><li><br/><h4>Past Gigs</h4></li></>
+					
+						{
+						playedGigs.sort(dateSortFunction(1)).map( ({ date, event, venue, city }, index) => {
 
 							return (
 								<li key={index}>

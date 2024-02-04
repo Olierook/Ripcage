@@ -15,18 +15,18 @@
 		"usp": "Rawer than your steak tartare"
 	},
 
-	"paragraph": "Goldwölff is a heavy rock 'n roll band from Leiden. Come join us for our EP release 12/01/2024 @ Nobel in Leiden. Here y'all find heavy music and heavy matches as this is also a boxing gala",
+	"paragraph": "Goldwölff is a heavy rock 'n roll band from Leiden. Come check us out and immerse yourself in the sonic fury that is Goldwölff. Book us. Get fucked nonetheless.",
 
 	"buttons": {
 		"primary": {
-			"title": "Tickets",
-			"url": "https://nobel.nl/programma/friday-fight-night-12-jan-2024/",
-			"leaveSite": "true"
+			"title": "WhatsApp",
+			"url": "https://api.whatsapp.com/send?phone=31648120785",
+			"leaveSite": true
 		},
 		"secondary": {
-			"title": "Spotify",
-			"url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT",
-			"leaveSite": "true"
+			"title": "Gigs",
+			"url": "#gigs",
+			"leaveSite": false
 		}
 	}
 }

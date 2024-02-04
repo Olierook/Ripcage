@@ -29,6 +29,8 @@ import content		from '../../../content/index/hero.json'
 export default function Hero() {
 
 	const [typingStatus, setTypingStatus] = useState('Initializing');
+	const buttonFn = (leaveSite, url) => leaveSite ? () => window.open(url, "_blank") : () => window.open(url, "_self") ;
+	// document.getElementById(url).scrollIntoView()
 
 	return (
 		<Section classProp={`${hero.section}`}>
@@ -65,12 +67,12 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ ()=> window.open(content.buttons.primary.url, "_blank") } >
+							onClick={buttonFn(content.buttons.primary.leaveSite, content.buttons.primary.url )} >
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} `}
-							onClick={ ()=> window.open(content.buttons.secondary.url, "_blank") } >
-						{content.buttons.secondary.title}
+							onClick={buttonFn(content.buttons.secondary.leaveSite, content.buttons.secondary.url )} >
+							{content.buttons.secondary.title}
 					</button>
 				</section>
 			</Container>
