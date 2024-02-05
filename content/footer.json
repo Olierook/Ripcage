@@ -98,13 +98,7 @@
 			"city": "Coevorden",
 			"country": "Netherlands"
 		},
-		{ 
-			"date": "24/03/2024",
-			"event": "",
-			"venue": "De Veste",
-			"city": "Leiden",
-			"country": "Netherlands"
-		},
+
 		{ 
 			"date": "19/04/2024",
 			"event": "",
@@ -152,3 +146,6 @@
 		}
 	]
 }
+
+
+
