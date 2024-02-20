@@ -86,7 +86,14 @@
 		},
 		{ 
 			"date": "16/02/2024",
-			"event": "Metal Battle",
+			"event": "Metal Battle South Holland (Won)",
+			"venue": "Baroeg",
+			"city": "Rotterdam",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "22/03/2024",
+			"event": "Metal Battle Showdown West",
 			"venue": "Baroeg",
 			"city": "Rotterdam",
 			"country": "Netherlands"
