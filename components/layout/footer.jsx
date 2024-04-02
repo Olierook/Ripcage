@@ -44,7 +44,7 @@ export default function Footer() {
 								)
 							})
 							}
-						<><li><br/><h4>Past Gigs</h4></li></>
+						{playedGigs[0] && <><li><br/><h4>Past Gigs</h4></li></>}
 					
 						{
 						playedGigs.sort(dateSortFunction(1)).map( ({ date, event, venue, city }, index) => {
