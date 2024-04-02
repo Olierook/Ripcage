@@ -39,7 +39,7 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fas', 'music' ]}
-							copy="Embark on a sonic adventure with our 5-piece heavy rock n' roll band. Fronted by the powerful vocals of Jan-Willem Kerpershoek, our lineup features Vincent de Bruijn and Lex van der Zwaal on guitars, Rinus Veldhuijzen holding down the bass, and the rhythmic pulse provided by Robbert Olierook on drums. Together, we deliver tunes that get you fucked and resonate with a rebellious 'Yeehaw,' creating a raw, rowdy, and unforgiving sound."
+							copy="Embark on a sonic journey with our 5-piece heavy metal powerhouse, RipCage. Fronted by the commanding vocals of Jon, our lineup showcases the guitar mastery of Paul and Stefan, with Thomas laying down the thunder on bass, and the relentless beats from Robbert on drums. Together, we unleash tracks that rock you to the core and echo with a rebellious spirit, crafting a raw, intense, and unyielding sound."
 						/>
 						<BadgesBlock 
 							title="Contact" 
@@ -49,7 +49,7 @@ export default function About() {
 							block="methods" 
 							iconClass={about.icon}
 							icon="address-card"
-							copy="Hit us up on goldwolffband@gmail.com or +31648120785. Or reach out to us on social media or at one of our gigs"
+							copy="Reach out to us on ripcageofficial@gmail.com or +31611385417, contact us on social media or at one of our gigs"
 							headerIcon={`${about.icon}`}
 						/>
 					</div>

@@ -17,7 +17,7 @@ export default function HomePage() {
 	return (
 		<>
 			<Head>
-				<title>Goldwölff</title>
+				<title>RipCage</title>
 			</Head>
 			<Color colors={colors} />
 			<Hero />

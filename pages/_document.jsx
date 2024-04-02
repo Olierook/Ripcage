@@ -12,11 +12,11 @@ export default function Document() {
 		<Html lang="en">
 			<Head>
 				<meta charSet="utf-8" />
-         		<meta name="description" content="HEAVY ROCK & ROLL. GET FUCKED." />
+         		<meta name="description" content="HEAVY METAL" />
 				<link rel="icon" href="favicon/favicon.ico"/>
-         		<meta property="og:title" content="Goldwölff" />
-         		<meta property="og:url" content="https://goldwolffband.com" />
-         		<meta property="og:image" content="https://goldwolffband.com/ogimage.jpg" />
+         		<meta property="og:title" content="RipCage" />
+         		<meta property="og:url" content="https://ripcageofficial.com" />
+         		<meta property="og:image" content="https://ripcageofficial.com/ogimage.jpg" />
          		<meta property="og:type" content="website"/>	
 				<link rel="manifest" href="/favicon/site.webmanifest" />
 				<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />

@@ -1,116 +1,18 @@
 {
 	"gigs": [
-		{ 
-			"date": "08/04/2023",
-			"event": "Interstellar Solar Festival  Leiden",
-			"venue": "Nobel",
-			"city": "Leiden",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "27/04/2023",
-			"event": "Kings Festival",
-			"venue": "Vi-Kings",
-			"city": "Leiden",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "29/04/2023",
-			"event": "Don't Mind The Fuzz Festival",
-			"venue": "",
-			"city": "Leiden",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "25/05/2023",
-			"event": "Hondsdol Festival",
-			"venue": "Wibar",
-			"city": "Leiden",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "30/07/2023",
-			"event": "Riffsniffer presents Sasquatch",
-			"venue": "Baroeg",
-			"city": "Rotterdam",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "26/08/2023",
-			"event": "Koeienpop",
-			"venue": "",
-			"city": "Stompwijk",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "22/09/2023",
-			"event": "Metal Experience Fest",
-			"venue": "Nobel",
-			"city": "Leiden",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "30/09/2023",
-			"event": "Sasquatch Sessions",
-			"venue": "Mevrouw Latenstaan",
-			"city": "Zoetermeer",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "03/10/2023",
-			"event": "3 October Festival",
-			"venue": "Vi-Kings",
-			"city": "Leiden",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "12/01/2024",
-			"event": "Friday Fight Night",
-			"venue": "Nobel",
-			"city": "Leiden",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "27/01/2024",
-			"event": "",
-			"venue": "dBs",
-			"city": "Utrecht",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "02/02/2024",
-			"event": "",
-			"venue": "The Cave",
-			"city": "Amsterdam",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "16/02/2024",
-			"event": "Metal Battle South Holland (Won)",
-			"venue": "Baroeg",
-			"city": "Rotterdam",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "22/03/2024",
-			"event": "Metal Battle Showdown West",
-			"venue": "Baroeg",
-			"city": "Rotterdam",
-			"country": "Netherlands"
-		},
-		{ 
-			"date": "17/02/2024",
-			"event": "",
-			"venue": "Metal Front",
-			"city": "Coevorden",
-			"country": "Netherlands"
-		},
 
 		{ 
 			"date": "19/04/2024",
 			"event": "",
 			"venue": "Gonz",
 			"city": "Gouda",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "27/04/2024",
+			"event": "Kingsday",
+			"venue": "Rockcafé Lazaru's",
+			"city": "Leiden",
 			"country": "Netherlands"
 		}
 
@@ -120,35 +22,27 @@
 
 	"social": [
 		{
-			"url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT",
+			"url": "https://open.spotify.com/artist/11818m7S5pUrJ00yiV1D0o",
 			"icon": "spotify"
 		},
 		{
-			"url": "https://music.apple.com/us/artist/goldw%C3%B6lff/1701627840",
+			"url": "https://music.apple.com/us/artist/ripcage/1656145524",
 			"icon": "apple"
 		},
 		{
-			"url": "https://soundcloud.com/goldwolff",
+			"url": "https://soundcloud.com/ripcage2022",
 			"icon": "soundcloud"
 		},
 		{
-			"url": "https://www.youtube.com/channel/UCOfpKkEdYJOWXULfQiYRvtQ",
-			"icon": "youtube"
-		},
-		{
-			"url": "https://www.instagram.com/goldwolffband",
+			"url": "https://www.instagram.com/ripcageofficial",
 			"icon": "instagram"
 		},
 		{
-			"url": "https://www.facebook.com/goldwolffband",
-			"icon": "facebook"
-		},
-		{
-			"url": "mailto:goldwolffband@gmail.com",
+			"url": "mailto:ripcageofficial@gmail.com",
 			"icon": "at"
 		},
 		{
-			"url": "https://api.whatsapp.com/send?phone=31648120785",
+			"url": "https://api.whatsapp.com/send?phone=31611385417",
 			"icon": "whatsapp"
 		}
 	]
