@@ -28,7 +28,7 @@ export default function About() {
 		<Section classProp={about.section}>	
 			<Container spacing={['verticalXXXLrg']}>
 
-				<section className={about.content}>
+				<section className={about.content} id="about">
 					<div className={about.image}>
 						<img src="/img/profiel3.jpg" alt="Band picture"/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
@@ -39,7 +39,7 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fas', 'music' ]}
-							copy="Embark on a sonic journey with our 5-piece heavy metal powerhouse, RipCage. Fronted by the commanding vocals of Jon, our lineup showcases the guitar mastery of Paul and Stefan, with Thomas laying down the thunder on bass, and the relentless beats from Robbert on drums. Together, we unleash tracks that rock you to the core and echo with a rebellious spirit, crafting a raw, intense, and unyielding sound."
+							copy={'Embark on a sonic journey with our 5-piece heavy metal powerhouse, RipCage. Hailing from Rotterdam and fronted by the commanding vocals of Jon, our lineup showcases the guitar mastery of Paul and Stefan, with Thomas laying down the thunder on bass, and the relentless beats from Robbert on drums. Together, we unleash tracks that rock you to the core and echo with a rebellious spirit, crafting a raw, intense, and unyielding sound.'}
 						/>
 						<BadgesBlock 
 							title="Contact" 

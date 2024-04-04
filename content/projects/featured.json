@@ -1,20 +1,40 @@
 [
 	{
+		"project": "Our story",
+		"url": "mailto:ripcageofficial@gmail.com?subject=RipCage Inquiry&body=Dear RipCage,",
+		"descriptionTitle": "RipCage started early 2020.",
+		"description": "Driven by a passion for heavy music, Paul wrote 9 tracks and recorded them in his home studio during the pandemic. Paul met Jon online, who wrote and recorded the lyrics. Together they released their album 'When the World Burns' by the end of 2022.",
+		"description2": "RipCage has since then added Robbert (drums), Thomas (bass) and Stefan (guitar) to the lineup and now is ready to play live, supporting bands in the bigger concert venues and playing festivals. ",
+		"description3": "And of course, keep on creating the heavy music we very much love with lots of fun and passion, and no limitations...",
+
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "1717", "w": "1717",  "url": "/img/band.jpg" }
+
+		],
+	
+		"cta": "Book us"
+	},
+	{
 		"project": "When the World Burns",
-		"url": "https://open.spotify.com/album/6v1fP42dmAHD5xWl02tnpE?si=D986zLKmTt22a6orM3HHGQ",
+		"url": "https://open.spotify.com/album/4WJMx87p15kE37cpne9JBl?si=LUQ8KqHzQmCCdeO_jsextw",
 		"descriptionTitle": "Embark on a sonic voyage with RipCage's debut album, 'When the World Burns''",
 		"description": " – a potent blend of heavy metal that delivers a visceral impact to your senses.",
 		"description2": "Prepare for a high-octane journey that captures the unfiltered essence of RipCage's musical prowess.",
 		"description3": "Check it out now!",
 		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "left", 	"h": "786", "w": "556", "url": "/img/ep/wtwb.jpg" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "3000", "w": "3000", "url": "/img/ep/wtwb.jpg" }
 		],
 		"stack": [
 			
 		],
 		"cta": "Listen on Spotify"
 	}
+
 ]			
+
+

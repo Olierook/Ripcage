@@ -1,10 +1,26 @@
 [
 	{
+		"url": "#about",
+		"title": "About",
+		"leaveSite": false
+
+	},
+	{
 		"url": "https://open.spotify.com/artist/11818m7S5pUrJ00yiV1D0o",
-		"title": "Spotify"
+		"title": "Music",
+		"leaveSite": true
+
 	},
 	{
 		"url": "https://www.instagram.com/ripcageofficial",
-		"title": "Instagram"
+		"title": "Photos",
+		"leaveSite": true
+
+	},
+	{
+		"url": "#gigs",
+		"title": "Gigs",
+		"leaveSite": false
+
 	}
 ]

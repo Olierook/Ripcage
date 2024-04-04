@@ -20,7 +20,7 @@
 	"buttons": {
 		"primary": {
 			"title": "WhatsApp",
-			"url": "https://api.whatsapp.com/send?phone=31648120785",
+			"url": "https://api.whatsapp.com/send?phone=31611385417",
 			"leaveSite": true
 		},
 		"secondary": {
