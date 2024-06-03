@@ -1,11 +1,11 @@
 [
 	{
-		"project": "Our story",
+		"project": "Book RipCage for Your Next Event!",
 		"url": "mailto:ripcageofficial@gmail.com?subject=RipCage Inquiry&body=Dear RipCage,",
-		"descriptionTitle": "RipCage started early 2020.",
-		"description": "Driven by a passion for heavy music, Paul wrote 9 tracks and recorded them in his home studio during the pandemic. Paul met Jon online, who wrote and recorded the lyrics. Together they released their album 'When the World Burns' by the end of 2022.",
-		"description2": "RipCage has since then added Robbert (drums), Thomas (bass) and Stefan (guitar) to the lineup and now is ready to play live, supporting bands in the bigger concert venues and playing festivals. ",
-		"description3": "And of course, keep on creating the heavy music we very much love with lots of fun and passion, and no limitations...",
+		"descriptionTitle": "RipCage is ready to bring their electrifying heavy metal and hardcore sound to the stage.",
+		"description": "With the release of our debut album, When the World Burns, we are more eager than ever to perform live. We are passionate about delivering high-energy performances that resonate with our influences from Metallica, Pantera, Slayer, Madball, and Sick of it All.",
+		"description2": "Whether it's a festival, club show, or private event, RipCage is prepared to bring heavy riffs, powerful grooves, and unforgettable melodies to your audience. Don't miss the chance to experience our music live!",
+		"description3": "Contact us now to book RipCage for your next gig and be a part of the metal revolution.",
 
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
@@ -16,6 +16,7 @@
 		],
 	
 		"cta": "Book us"
+
 	},
 	{
 		"project": "When the World Burns",
