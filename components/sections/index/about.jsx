@@ -39,7 +39,7 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fas', 'music' ]}
-							copy={'Embark on a sonic journey with our 5-piece heavy metal powerhouse, RipCage. Hailing from Rotterdam and fronted by the commanding vocals of Jon, our lineup showcases the guitar mastery of Paul and Stefan, with Thomas laying down the thunder on bass, and the relentless beats from Robbert on drums. Together, we unleash tracks that rock you to the core and echo with a rebellious spirit, crafting a raw, intense, and unyielding sound.'}
+							copy={'RipCage started early 2020, driven by a passion for heavy metal and hardcore. Inspired by bands like Metallica, Pantera, Slayer, Madball and Sick of it All, Paul wrote 9 tracks with heavy riffs, groove and melody, and recorded all music by himself in his home studio during the pandemic. Jon joined and wrote and recorded the lyrics. Together they released their album \'When the World Burns\' by the end of 2022. RipCage has since then added Robbert (drums), Thomas (bass) and Stefan (guitar) to the lineup to keep on creating and performing the heavy music we very much love with lots of fun and passion, and no limitations...'}
 						/>
 						<BadgesBlock 
 							title="Contact" 

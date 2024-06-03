@@ -21,7 +21,15 @@
 			"venue": "Komplex",
 			"city": "Heerhugowaard",
 			"country": "Netherlands"
+		},
+		{ 
+			"date": "15/11/2024",
+			"event": "",
+			"venue": "The Cave",
+			"city": "Amsterdam",
+			"country": "Netherlands"
 		}
+
 
 	],
 
